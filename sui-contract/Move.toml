@@ -1,0 +1,11 @@
+[package]
+name = "zkramp"
+edition = "2024.beta"
+
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+
+[addresses]
+zkramp = "0x88dfad1e68a50ade5634883b4c6dfe90eab314e6260e881799f69ac3c101d5cd"

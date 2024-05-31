@@ -1,0 +1,6 @@
+node_modules
+.wasm
+*.zkey
+build
+sui-client
+*.ptau
